@@ -1,6 +1,3 @@
-from pprint import pprint
-
-
 def part_1() -> int:
     stacks = [[], [], [], [], [], [], [], [], []]
 
@@ -63,5 +60,5 @@ def part_2() -> int:
 
 
 if __name__ == "__main__":
-    # print(part_1())
+    print(part_1())
     print(part_2())
